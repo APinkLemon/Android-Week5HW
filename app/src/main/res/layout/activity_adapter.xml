@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#10000000"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/dog_img"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:src="@drawable/dog2" />
+
+    <TextView
+        android:id="@+id/const1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/dog_img"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="10dp"
+        android:text="品种："
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/dog_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/const1"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="45dp"
+        android:text="比熊"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/const2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/const1"
+        android:layout_toEndOf="@id/dog_img"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="35dp"
+        android:text="地区："
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/dog_region"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dog_name"
+        android:layout_toEndOf="@id/const2"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:text="上海  闵行"
+        android:textSize="20dp" />
+
+</RelativeLayout>
