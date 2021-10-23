@@ -10,7 +10,9 @@
 
 
 
-![demo](.\demo.png)
+<center class="half">
+    <img src="./demo.png" width="300"/>
+</center>
 
 
 
