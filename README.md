@@ -10,7 +10,7 @@
 
 
 
-![demo](C:\Projects\AndroidStudio\Week5HW\demo.png)
+![demo](.\demo.png)
 
 
 
